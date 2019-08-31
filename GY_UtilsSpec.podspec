@@ -15,7 +15,7 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "GY_UtilsSpec"
+  spec.name         = "GY_Util"
   spec.version      = "0.0.1"
   spec.summary      = "A short description of GY_UtilsSpec."
 
@@ -52,7 +52,7 @@ Pod::Spec.new do |spec|
   #  profile URL.
   #
 
-  spec.author             = { "Ethan" => "" }
+  spec.author             = { "Ethan" => "953576191@qq.com" }
   # Or just: spec.author    = "Ethan"
   # spec.authors            = { "Ethan" => "" }
   # spec.social_media_url   = "https://twitter.com/Yong"
@@ -79,7 +79,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "http://EXAMPLE/GY_UtilsSpec.git", :tag => "#{spec.version}" }
+  spec.source       = { :https://github.com/guoyunyun/GY_Util.git", :tag => spec.version }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
